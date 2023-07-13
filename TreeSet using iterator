@@ -1,0 +1,17 @@
+import java.util.*;
+class treeset
+{
+ public static void main(String args[])
+ {
+  TreeSet<String> o=new TreeSet<String>();
+  o.add("Ravi");
+  o.add("Vijay");
+  o.add("Ravi");
+  o.add("Ajay");
+  Iterator<String> itr=o.iterator();
+  while(itr.hasNext())
+  {
+   System.out.println(itr.next());
+  }
+ }
+}
